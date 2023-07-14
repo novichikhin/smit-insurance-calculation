@@ -1,0 +1,1 @@
+from smit_insurance_calculation.api.responses.rate import RateNotFound

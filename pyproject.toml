@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "smit-insurance-calculation"
+version = "0.1.0"
+description = ""
+authors = ["Danila Novichikhin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tortoise-orm = "^0.19.3"
+uvicorn = "^0.22.0"
+python-dotenv = "^1.0.0"
+asyncpg = "^0.28.0"
+orjson = "^3.9.2"
+fastapi = "0.98.0"
+aerich = "^0.7.1"
+
+
+
+[tool.aerich]
+tortoise_orm = "migrations.setup.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

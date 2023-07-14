@@ -1,0 +1,1 @@
+from smit_insurance_calculation.core.exceptions.rate import RateNotFound
